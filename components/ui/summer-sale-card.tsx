@@ -7,7 +7,7 @@ const SummerSaleCard: React.FC = () => {
       className="flex items-center justify-end bg-cover bg-center p-5 rounded-lg text-white/80 w-full h-72 mt-10 shadow-md"
       style={{ backgroundImage: 'url("/images/summer.jpg")' }}
     >
-      <div className="mr-10 space-y-20 bg-black/50 sm:bg-inherit">
+      <div className="sm:mr-10 space-y-20 bg-black/50 sm:bg-inherit">
         <h1 className="text-sm font-bold m-0">SUMMER SALE</h1>
         <h2 className="text-4xl font-semibold my-2 text-white/90">
           <span className="text-[#FF8A00]">37%</span> OFF
