@@ -58,7 +58,6 @@ const ProductCard = React.forwardRef<HTMLDivElement, ProductCardProps>(
       isHotDeal = false,
       endDate,
       productsRemaining,
-      bulkPrice,
       category,
       tags,
       farmer,
