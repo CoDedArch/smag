@@ -320,8 +320,8 @@ const ProductCard = React.forwardRef<HTMLDivElement, ProductCardProps>(
             </button>
 
             {showOverlay && (
-              <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-[100000] p-20  sm:pt-30">
-                <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg w-full max-w-4xl  pt-10 sm:pt-0 max-h-[90vh] overflow-y-auto">
+              <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-[100000] pt-20  sm:pt-30">
+                <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg w-full max-w-4xl sm:pt-0 max-h-[90vh] overflow-y-auto">
                   {/* Close button */}
                   <button
                     className="sticky top-2 right-2 ml-auto text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl hover:bg-gray-200 rounded-full p-1 transition-all z-10"
