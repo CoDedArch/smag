@@ -90,7 +90,6 @@ const ProductsPage = () => {
                tags={product.tags}
                description={product.description}
                additionalInfo={product.additionalInfo}
-               bulkPrice={product.bulkPrice}
              />
             ))}
           </div>

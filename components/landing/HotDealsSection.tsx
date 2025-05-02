@@ -75,7 +75,6 @@ const HotDealsSection: React.FC = () => {
               tags={product.tags}
               description={product.description}
               additionalInfo={product.additionalInfo}
-              bulkPrice={product.bulkPrice}
             />
           ))}
         </div>
